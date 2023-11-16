@@ -32,8 +32,8 @@ function About() {
                 Musics and playing games.
               </p>
               <p className="about__text p__color">
-                My favorite Quote:<span>
-                Belive that Tomorrow will be better than Today.... 😇 
+                 Quote:<span>
+                 "𝕶𝖎𝖑𝖑 𝖙𝖍𝖊𝖒 𝖜𝖎𝖙𝖍 𝖞𝖔𝖚𝖗 𝖘𝖚𝖈𝖈𝖊𝖘𝖘 𝖆𝖓𝖉 𝖇𝖚𝖗𝖞 𝖙𝖍𝖊𝖒 𝖜𝖎𝖙𝖍 𝖞𝖔𝖚𝖗 𝖘𝖒𝖎𝖑𝖊 😇". 
                 </span>
               </p>
               <div className="about__button d__flex align__items__center">

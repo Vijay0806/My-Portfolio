@@ -47,7 +47,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">Webcode Project</h5>
-                     <h4 className="project__text">Stack overflow clone</h4>
+                     <h4 className="project__text">Stack overflow Clone</h4>
                      <div>
                      <a href="https://github.com/Vijay0806/Webcode-Frontend-2" className="project__btn" target={"_blank"}>Github Link</a>
                      <a href="https://stackoverflow-clone-web.netlify.app/" className="project__btn" target={"_blank"}>Deploy URL</a>
@@ -104,7 +104,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">CRUD Operations</h5>
-                     <h4 className="project__text">To Design Form Using CURD Operations</h4>
+                     <h4 className="project__text">To Design Form Using CRUD Operations</h4>
                      <div className="button_box">
                      <a href="https://github.com/Vijay0806/React-Task-4" className="project__btn" target={"_blank"}>Github Link</a>
                      <a href="https://crud-react-task-4.netlify.app/"  className="project__btn" target={"_blank"}>Deploy URL</a>

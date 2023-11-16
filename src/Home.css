@@ -1,11 +1,17 @@
 .home__bg{
-    /* "D:/PHOTOS/Portfolio photos/bg.jpg */
-    /* background-image: url("./img/jp.webp"); */
+    background-image: url("../src/img/peakpx.jpg");
+    /* background-image: url("./img/peakpx\ \(1\).jpg"); */
     background-color: #010101;
-    background-position: 50%;
+    background-size: 30% auto; /* Reduce the width, maintain aspect ratio for height */
+    background-position: 85%;
+    margin: 0;
+    right: 200px;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to the viewport height */ 
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
+
 li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;

@@ -61,7 +61,7 @@ function Home() {
                𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣,
                </h3>
                <h4 className='home__text pz__10'>
-               Based in India.
+               Native to INDIA.
                </h4>
              </div>
            </div>
