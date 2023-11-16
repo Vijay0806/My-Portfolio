@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 
+
 function Home() {
   return (
     <div className='home'>
@@ -32,11 +33,32 @@ function Home() {
                <h2 className='home__text pz__10'>
                Hi,
                </h2>
-               <h2 className='home__text pz__10'>
-               I'm Vijay,
+               <h2 className='home__text pz__10 animate-color-change animate-random-color animate-random-animation'>
+               I'm 𝕍𝕚𝕛𝕒𝕪,
                </h2>
-               <h3 className='home__text sweet pz__10'>
-                Full Stack Developer,
+               <style>
+        {`
+          @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+          }
+
+          @keyframes randomAnimation {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateY(10px); }
+            50% { transform: translateX(-10px); }
+            75% { transform: translateY(-10px); }
+            .random-font {
+              font-family: 'Arial', sans-serif;
+              /* Add more font style attributes here */
+            } 
+        `}
+      </style>
+               <h3 className='home__text sweet pz__10 animate-color-change animate-random-color animate-random-animation'>
+               𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣,
                </h3>
                <h4 className='home__text pz__10'>
                Based in India.

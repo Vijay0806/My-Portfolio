@@ -9,8 +9,8 @@ const ExperienceContainer = () => {
             <div className='experienceContainer__info'>
                 
                 <Experience number="4month" tittle="MERN Stack Development Course" />
-                <Experience number="325+" tittle="Problems solved in Guvi" style={{ backgroundColor: "rgb(56,26,210)" }} />
-                <Experience number="+3" tittle="Beginner level projects" />
+                <Experience number="300+" tittle="Problems solved in Guvi" style={{ backgroundColor: "rgb(56,26,210)" }} />
+                <Experience number="+5" tittle="Beginner level projects" />
                 {/* <Experience number="6+" tittle="Years Teaching" /> */}
                
             </div>

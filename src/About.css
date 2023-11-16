@@ -9,6 +9,7 @@ h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
     font-family: Montserrat,sans-serif;
     font-size: 60px;
 }
@@ -41,6 +42,9 @@ a.bottom__to__top{
 }
 a.bottom__to__top.active{
     display: flex;
+}
+.bottom__to__top:hover{
+ background-color: rgb(219, 18, 132);
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px){

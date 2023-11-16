@@ -20,6 +20,11 @@ h1.hire__text {
     /* font-size: 50px;
     margin: 10px; */
 }
+.icons:hover{
+   color: rgb(219, 18, 132);
+    
+}
+
 p.hire__text{
     font-size: 18px;
     line-height: 30px;
@@ -62,4 +67,9 @@ textarea#message{
 }
 button.btn.contact.pointer {
     margin: 20px 0px;
+    /* color: aqua; */
+}
+.submit_pointer:hover{
+ /* color: aqua; */
+ background-color: green;
 }

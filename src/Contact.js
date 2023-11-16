@@ -41,7 +41,7 @@ function Contact() {
                            <input type="text" className="contact email" name="user_email" placeholder="Enter Your Email *" required/>
                            {/* <input type="text" className="contact subject" placeholder="Write a Subject" /> */}
                            <textarea name="message" id="message" placeholder="Write Your message?" required></textarea>
-                           <button className="btn contact pointer" type="submit" value="Sent">Submit</button>
+                           <button className="btn contact pointer submit_pointer" type="submit" value="Sent">Submit</button>
                            {values?<h3 style={{color:"greenyellow"}}>Email sent sucessfully</h3>:<></>}
                         </form>
                         

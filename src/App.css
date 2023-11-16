@@ -1,3 +1,6 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
 *{
   padding: 0;
   margin: 0;
@@ -50,8 +53,16 @@ p{
   justify-content: space-between;
 }
 .mx__15{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
   margin: 0px 15px;
+  }
+.mx__15:hover{
+  /* background-color: #3e8e41 */
+   color: red;
 }
+
+
 .px__30{
   padding: 0px 30px;
 }
@@ -64,7 +75,10 @@ p{
 }
 .pz__10{
   padding: 10px 0px;
+  /* font-family: "Sofia", sans-serif; */
+  font-family: "Trirong", serif;
 }
+
 
 /* #F9004D */
 .sweet{
@@ -164,4 +178,24 @@ span.copyright {
 .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
   flex-wrap: wrap;
 }
+}
+
+@keyframes colorChange {
+  0% { color: var(--tw-color-red);}
+  25% { color: var(--tw-color-blue); }
+  50% { color: var(--tw-color-green);}
+  75% { color: var(--tw-color-orange); }
+  100% { color: var(--tw-color-purple);}
+}
+@keyframes colorChange {
+  0% { color: red; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+  25% { color: blue; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+  50% { color: green; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+  75% { color: orange; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+  100% { color: purple; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+}
+
+
+.animate-color-change {
+  animation: colorChange 5s linear infinite;
 }
