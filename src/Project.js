@@ -7,12 +7,12 @@ function Project() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
-        <h1 className="heading">My Latest Projects</h1>
+        <h1 className="heading">Projects</h1>
         <p className="heading p__color">
-          Design MERN Stack Projects that can help to me, 
+        Here's some of my projects that I have worked on.,
         </p>
         <p className="heading p__color">
-          for more confidence in web development.
+        that can help to me,for more confidence in web development.
         </p>
       </div>
        <div className="container">
@@ -27,11 +27,21 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Capstone Project</h5>
                      <h4 className="project__text">Airbnb Clone</h4>
+                     <h6 className="project__text">Description</h6>
+                     <p className="project__text">A replica of the Airbnb platform, allowing users to easily create accounts, discover accommodations through search, and list their properties for rent, offering a seamless experience for both hosts and guests.</p>
+                     <div className="demo_details">
+                        <h6 className="demo_details">DemoCredential</h6>
+                        <p className="demo_details">username :</p>
+                        <p className="demo_details">password :</p>
+                    </div>
+                     {/* <h5 className="project__text">Capstone Project</h5> */}
+                     {/* <h4 className="project__text">Airbnb Clone</h4> */}
+                     {/* <h6>Crafted a dynamic Airbnb clone, seamlessly connecting travelers with unique accommodations through a user-friendly platform.</h6> */}
                      <div>
-                     <a href="https://github.com/Vijay0806/Capstone-Frontend-final" className="project__btn" target={"_blank"}>Github Link</a>
-                     <a href="https://airbnb-booking-vj-08-clone.netlify.app/" className="project__btn" target={"_blank"}>Deploy URL</a>
+                     <a href="https://github.com/Vijay0806/Capstone-Frontend-final" className="project__btn" target={"_blank"}>Frontend Link</a>
+                     <a href="https://github.com/Vijay0806/Capstone-Backend" className="project__btn" target={"_blank"}>Backend Link</a>
+                     <a href="https://airbnb-booking-vj-08-clone.netlify.app/" className="project__btn" target={"_blank"}>Live</a>
                     </div>
                      </div>
                  </div>
@@ -46,11 +56,18 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Webcode Project</h5>
                      <h4 className="project__text">Stack overflow Clone</h4>
-                     <div>
-                     <a href="https://github.com/Vijay0806/Webcode-Frontend-2" className="project__btn" target={"_blank"}>Github Link</a>
-                     <a href="https://stackoverflow-clone-web.netlify.app/" className="project__btn" target={"_blank"}>Deploy URL</a>
+                     <h6 className="project__text">Description</h6>
+                     <p className="project__text">This is an clone of StackOverFlow website. Where we can create account,see solution by search, post our question in public for which we need solution and we can post our solution to the question.</p>
+                     <div className="demo_details">
+                        <h6 className="demo_details">Credential</h6>
+                        <p className="demo_details">username :</p>
+                        <p className="demo_details">password :</p>
+                    </div>
+                    <div>
+                     <a href="https://github.com/Vijay0806/Webcode-Frontend-2" className="project__btn" target={"_blank"}>Frontend Link</a>
+                     <a href="https://github.com/Vijay0806/Webcode-Backend-2" className="project__btn" target={"_blank"}>Backend Link</a>
+                     <a href="https://stackoverflow-clone-web.netlify.app/" className="project__btn" target={"_blank"}>Live</a>
                     </div>
                      </div>
                  </div>
@@ -67,9 +84,15 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Webcode Project</h5>
                      <h4 className="project__text">Pokemon API</h4>
-                     <div>
-                     <a href="https://github.com/Vijay0806/Web-Code-1" className="project__btn" target={"_blank"}>Github Link</a>
-                     <a href="https://pokemon-webcode.netlify.app/" className="project__btn" target={"_blank"}>Deploy URL</a>
+                     <div className="demo_details">
+                        <h6 className="demo_details">Credential</h6>
+                        <p className="demo_details">username :</p>
+                        <p className="demo_details">password :</p>
+                    </div>
+                    <div>
+                     <a href="https://github.com/Vijay0806/Web-Code-1" className="project__btn" target={"_blank"}>Frontend Link</a>
+                     <a href="https://github.com/Vijay0806/Web-Code-1" className="project__btn" target={"_blank"}>Backend Link</a>
+                     <a href="https://pokemon-webcode.netlify.app/" className="project__btn" target={"_blank"}>Live</a>
                     </div>
                      </div>
                  </div>
@@ -84,11 +107,18 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Library Management</h5>
-                     <h4 className="project__text">To Design Library Books Management</h4>
+                     <h4 className="project__text">Library Management</h4>
+                     <h6 className="project__text">Description</h6>
+                     <p className="project__text">Where we can create account,Facilitate easy book tracking and borrower management with Library Management, ensuring a well-organized and accessible library experience for users.</p>
+                     <div className="demo_details">
+                        <h6 className="demo_details">Credential</h6>
+                        <p className="demo_details">username :</p>
+                        <p className="demo_details">password :</p>
+                    </div>
                      <div>
-                     <a href="https://github.com/Vijay0806/React-Task-7" className="project__btn" target={"_blank"}>Github Link</a>
-                     <a href="https://library-management-react-task-7.netlify.app/" className="project__btn" target={"_blank"}>Deploy URL</a>
+                     <a href="https://github.com/Vijay0806/React-frontend-7" className="project__btn" target={"_blank"}>Frontend Link</a>
+                     <a href="https://github.com/Vijay0806/React--Backend-1" className="project__btn" target={"_blank"}>Backend Link</a>
+                     <a href="https://react-fsd-library-07.netlify.app/" className="project__btn" target={"_blank"}>Live</a>
                     </div>
                      </div>
                  </div>
@@ -103,11 +133,18 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">CRUD Operations</h5>
-                     <h4 className="project__text">To Design Form Using CRUD Operations</h4>
+                     <h4 className="project__text">Reset PassWord with auth</h4>
+                     <h6 className="project__text">Description</h6>
+                     <p className="project__text">This Application allows the user to register with mail verification, login, reset password with mail verification</p>
+                     <div className="demo_details">
+                        <h6 className="demo_details">Credential</h6>
+                        <p className="demo_details">username :</p>
+                        <p className="demo_details">password :</p>
+                    </div>
                      <div className="button_box">
-                     <a href="https://github.com/Vijay0806/React-Task-4" className="project__btn" target={"_blank"}>Github Link</a>
-                     <a href="https://crud-react-task-4.netlify.app/"  className="project__btn" target={"_blank"}>Deploy URL</a>
+                     <a href="https://github.com/Vijay0806/Node-Task-5-Frontend" className="project__btn" target={"_blank"}>Frontend Link</a>
+                     <a href="https://github.com/Vijay0806/Node-Task-5-Backend"  className="project__btn" target={"_blank"}>Backend Link</a>
+                     <a href="https://password-reset-frontend-vj-08.netlify.app/login"  className="project__btn" target={"_blank"}>Live</a>
                     </div>
                      </div>
                  </div>

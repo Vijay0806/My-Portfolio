@@ -8,6 +8,7 @@ import Service from './Service';
 import Skill from './Skill';
 // import Experience from './Experience';
 import ExperienceContainer from './ExperienceContainer';
+import Footer from './Footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
      <Project/>
      <ExperienceContainer />
      <Contact/>
+     <Footer />
     </div>
   );
 }

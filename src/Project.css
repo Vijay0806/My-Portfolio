@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
 .project{
     background-color: #191919;
 }
@@ -55,7 +56,7 @@ img.project__img::after{
 h5.project__text {
     font-weight: 400;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 110px;
 }
 h4.project__text {
     font-size: 22px;
@@ -63,7 +64,24 @@ h4.project__text {
     font-weight: 700;
     padding-bottom: 20px;
 }
-
+p.project__text {
+    font-size: 15px;
+    color: white;
+    font-family: "Trirong", serif;
+    text-align: center;
+    /* font-family: "Sofia", sans-serif; */
+    font-weight: 700;
+    padding-bottom: 70px;
+}
+h6.project__text {
+    font-size: 15px;
+    color: rgb(215, 18, 153);
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 a.project__btn {
     margin: 5px;
     padding: 7px 15px;
@@ -104,4 +122,44 @@ h5.project__text {
 h4.project__text {
     font-size: 18px;
 }
+}
+
+/* div.demo_details{
+    margin: 5px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    font-family: "Trirong", serif;
+    font-weight: 700;
+    padding-top: 1px;
+} */
+
+/* div.demo_details {
+    padding-right: 240px;
+    margin: 5px;
+    font-size: 10px;
+    text-align: left;
+    color: rebeccapurple;
+    font-family: "Trirong", serif;
+    font-weight: 700;
+    padding-top: 1px;
+    margin-top: -55px;
+} */
+h6.demo_details {
+    padding-right: 310px; /* Adjust the value as needed */
+    margin: 5px;
+    color: rgb(255, 123, 0);
+    font-size: 15px;
+    font-family: "Trirong", serif;
+    font-weight: 700;
+    padding-top: 1px;
+    margin-top: -70px;
+}
+p.demo_details{
+    padding-right: 250px;
+    padding-left: 7px;
+    font-size: 13px;
+    font-family: "Sofia", sans-serif;;
+    font-weight: 700;
+    color: rgb(255, 140, 0);
 }
