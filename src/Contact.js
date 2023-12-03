@@ -25,7 +25,7 @@ function Contact() {
     return (
         <div className="contact component__space" id="Contact">
             <div className='iconss'>
-            <span><a href='https://github.com/Vijay0806' className='icons' target='_blank'><FaGithub/></a><a href='https://www.linkedin.com/in/vijay-m-4b3506283/' className='icons' target='_blank'><FaLinkedin/></a></span>
+            <span><a href='https://github.com/Vijay0806' className='icons' target='_blank'><FaGithub/></a><a href='https://www.linkedin.com/in/vijay861/' className='icons' target='_blank'><FaLinkedin/></a></span>
           
           </div>
             <div className="row">

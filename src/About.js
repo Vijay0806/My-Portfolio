@@ -19,8 +19,8 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-              Hi I'm Vijay.M from Dharmapuri.Complete the Bachelor of Engineering(ECE)
-                in Government College of Engineering Dharmapuri(2018-2022).
+              I am Self-motivated, highly passionate and quickly adaptable person looking for an opportunity to work in a challenging organization 
+              where I can learn new skills, expand my knowledge and to work towards the growth of the organization to the best of my abilities.
               </p>
               <p className="about__text p__color">
                 Now recently Complete MERN stack developer Course in 
@@ -28,16 +28,14 @@ function About() {
               </p>
               <p className="about__text p__color">
                And now I'm looking for a job to enhance my skills.
-                My hobbies are reading Books and listening
-                Musics and playing games.
-              </p>
+                </p>
               <p className="about__text p__color">
                  Quote:<span>
                  "𝕶𝖎𝖑𝖑 𝖙𝖍𝖊𝖒 𝖜𝖎𝖙𝖍 𝖞𝖔𝖚𝖗 𝖘𝖚𝖈𝖈𝖊𝖘𝖘 𝖆𝖓𝖉 𝖇𝖚𝖗𝖞 𝖙𝖍𝖊𝖒 𝖜𝖎𝖙𝖍 𝖞𝖔𝖚𝖗 𝖘𝖒𝖎𝖑𝖊 😇". 
                 </span>
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="https://drive.google.com/file/d/1G1JIi7RAXS_m6n3N3tADKGJMXkRUNd_2/view?usp=sharing" target={"_blank"}>
+                <a href="https://drive.google.com/file/d/1Ldu2uhtLPMv02HtTwNsj0T5zd19_Y-OG/view?usp=sharing" target={"_blank"}>
                   <button className="about btn pointer" >Open Cv</button>
                 </a>
                 <a href="#Contact">
