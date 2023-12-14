@@ -31,7 +31,7 @@ function Project() {
                                 <h6 className="project__text">Description</h6>
                                 <p className="project__text">A replica of the Airbnb platform, allowing users to easily create accounts, discover accommodations through search, and list their properties for rent, offering a seamless experience for both hosts and guests.</p>
                                 <div className="demo_details">
-                                    <h6 className="demo_details">Credential</h6>
+                                    <h6 className="demo_details">Demo Credential</h6>
                                     <p className="demo_details">username :</p>
                                     <p className="demo_details">password :</p>
                                 </div>
@@ -60,7 +60,7 @@ function Project() {
                                 <h6 className="project__text">Description</h6>
                                 <p className="project__text">This is an clone of StackOverFlow website. Where we can create account,see solution by search, post our question in public for which we need solution and we can post our solution to the question.</p>
                                 <div className="demo_details">
-                                    <h6 className="demo_details">Credential</h6>
+                                    <h6 className="demo_details">Demo Credential</h6>
                                     <p className="demo_details">username :</p>
                                     <p className="demo_details">password :</p>
                                 </div>
@@ -86,7 +86,7 @@ function Project() {
                                 <h6 className="project__text">Description</h6>
                                 <p className="project__text">Discover and watch your favorite movies effortlessly with our user-friendly app.Where we can create account,Enjoy endless entertainment tailored just for you!</p>
                                 <div className="demo_details">
-                                    <h6 className="demo_details">Credential</h6>
+                                    <h6 className="demo_details">Demo Credential</h6>
                                     <p className="demo_details">username :</p>
                                     <p className="demo_details">password :</p>
                                 </div>
@@ -112,7 +112,7 @@ function Project() {
                                 <h6 className="project__text">Description</h6>
                                 <p className="project__text">Where we can create account,Facilitate easy book tracking and borrower management with Library Management, ensuring a well-organized and accessible library experience for users.</p>
                                 <div className="demo_details">
-                                    <h6 className="demo_details">Credential</h6>
+                                    <h6 className="demo_details">Demo Credential</h6>
                                     <p className="demo_details">username :</p>
                                     <p className="demo_details">password :</p>
                                 </div>
@@ -138,7 +138,7 @@ function Project() {
                                 <h6 className="project__text">Description</h6>
                                 <p className="project__text">This Application allows the user to register with mail verification, login, reset password with mail verification</p>
                                 <div className="demo_details">
-                                    <h6 className="demo_details">Credential</h6>
+                                    <h6 className="demo_details">Demo Credential</h6>
                                     <p className="demo_details">username :</p>
                                     <p className="demo_details">password :</p>
                                 </div>
