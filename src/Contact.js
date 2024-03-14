@@ -12,11 +12,12 @@ function Contact() {
     e.preventDefault();
 
  
-    emailjs.sendForm('service_u39b4f9', 'template_lul81um', form.current, '2dSc_4Dg9XnaDGtME')
+    emailjs.sendForm('service_4vgetcd', 'template_65gmpym', form.current, 'dCJnWGOibHlGVluGb')
       .then((result) => {
           console.log(result.text);
           console.log("message submitted");
-          setValues(result.text)
+          setValues(result.text);
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
           console.log("error accured");
