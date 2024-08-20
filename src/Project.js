@@ -41,7 +41,8 @@ function Project() {
                                 <div>
                                     <a href="https://github.com/Vijay0806/Capstone-Frontend-final" className="project__btn" target={"_blank"}>Frontend Link</a>
                                     <a href="https://github.com/Vijay0806/Capstone-Backend" className="project__btn" target={"_blank"}>Backend Link</a>
-                                    <a href="https://airbnb-booking-vj-08-clone.netlify.app/" className="project__btn" target={"_blank"}>Live</a>
+                                    <a href="https://air-bnb-booking-vj-08-clone.netlify.app" className="project__btn" target={"_blank"}>Live</a>
+                                    {/* <a href="https://airbnb-booking-vj-08-clone.netlify.app/" className="project__btn" target={"_blank"}>Live</a> */}
                                 </div>
                             </div>
                         </div>
